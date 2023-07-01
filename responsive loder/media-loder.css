@@ -1,0 +1,58 @@
+@media(max-width:800px) {
+    .menu{
+        display: none;
+        position: absolute;
+        top:120px;
+        text-align: center;
+        background-color: #065e2e;
+        height: 500px;
+        border-radius: 50px;
+    }
+    .br1 {
+        height: 30px;
+        border-left: 10px solid #065e2e;
+        border-right: 10px solid #065e2e;
+        width: 500px;
+    }
+    .menu a{
+        display: block;
+        padding: 20px 0;
+    }
+    .down,.down0,.down1,.down2{
+        right: 120px;
+    }
+    .br-box1{
+        height:40px;
+        width: 40px;
+        display: inline;
+    }
+    .i-800{
+        position: absolute;
+        left: 50%;
+        display: block;
+        /* background-color: aqua; */
+    }
+    .fa{
+        line-height: 0;
+        padding-top: 10px;
+        padding-left: 9px;
+    }
+    nav{
+        height: 81px;
+        width: 768px;
+
+    }
+    .hamburger{
+        display: block;
+        padding: 10px;
+        color: red;
+        border-radius: 20px;
+        margin-right: 20px;
+        /* margin-left: 20px; */
+        background-color: black;
+    }
+    input[type=checkbox]:checked ~ .menu{
+        display: block;
+        width: 100%;
+    }
+}

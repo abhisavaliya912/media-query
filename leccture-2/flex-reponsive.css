@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    height: 200px;
+    width: 25%;
+    border: 2px solid black;
+}
+.bg-red{
+    background-color: red;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+.bg-green{
+    background-color: green;
+
+}
+.bg-blue{
+    background-color: blue;
+}

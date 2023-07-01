@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+/* ******************************************header & navbar****************************************************** */
+.container {
+    width: 1140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.d-flex {
+    display: flex;
+}
+.justify {
+    justify-content: center;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+}
+
+
+
+nav {
+    height: 102px;
+    width: 1450px;
+    background-color: #065e2e;
+    border-radius: 80px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: relative; */
+}
+
+
+.menu a {
+    text-decoration: none;
+    margin-right: 40px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.br1 {
+    height: 30px;
+    border-left: 10px solid #065e2e;
+    border-right: 10px solid #065e2e;
+    width: 900px;
+}
+
+.br-box1 {
+    height: 45px;
+    width: 45px;
+    border: 2px solid white;
+    border-radius: 100px;
+    position: relative;
+}
+
+.fa {
+    font-size: 18px;
+    color: white;
+    align-self: center;
+    padding-top: 13px;
+    padding-left: 12px;
+}
+
+.down {
+    position: absolute;
+    top: 61px;
+    border: 1px solid black;
+    line-height: 45px;
+    visibility: hidden;
+    transition: 0.5s;
+    width: 200px;
+    background-color: white;
+}
+.down li:hover{
+    background-color:#065e2e;
+    color:white;
+}
+.down li a:hover{
+    color: white;
+}
+.drop:hover .down {
+    visibility: visible;
+}
+.down0{
+    position: absolute;
+    top: 61px;
+    border: 1px solid black;
+    line-height: 45px;
+    visibility: hidden;
+    transition: 0.5s;
+    width: 200px;
+    background-color: white;
+}
+.drop:hover .down0{
+    visibility: visible;
+}
+.down0 li:hover{
+    background-color:#065e2e;
+    color:white;
+}
+.down0 li a:hover{
+    color: white;
+}
+.down0 li a{
+    color: black;
+}
+.f1{
+   padding-left: 43px;
+}
+.f2{
+    padding-left: 78px;
+}
+.drop{
+    position: relative;
+}
+.ho:hover {
+    color:black;
+    /* background-color: white; */
+    
+}
+.down li a{
+    color: black;
+}
+
+.botton-bor {
+    border-bottom: 1px solid black;
+}
+
+
+
+
+.p-l-10 {
+    padding-left:10px;
+}
+
+.angle{
+    padding-left: 3px;
+}
+.down1{
+    position: absolute;
+    border: 1px solid black;
+    line-height: 45px;
+    visibility: hidden;
+    transition: 0.5s;
+    top:0px;
+    left:100%;
+    width: 200px;
+    margin-left: 0px;
+    background-color: white;
+
+    
+}
+.drop1:hover .down1{
+    visibility: visible;
+}
+.down2{
+    position: absolute;
+    border: 1px solid black;
+    line-height: 45px;
+    visibility: hidden;
+    transition: 0.5s;
+    top:50%;
+    left:100%;
+    width: 200px;
+    margin-left: 0px;
+    background-color: white;
+}
+.drop2:hover .down2{
+    visibility: visible;
+}
+.br-box1:hover{
+    background-color: white;
+}
+.fa:hover{
+    color: #065e2e;
+}
+.br-box1:hover .drop3{
+    visibility: visible;
+}
+.drop3{
+    background-color: white;
+    width: 120px;
+    height: 80px;
+    flex-direction: column;
+    border-radius:5px;
+     visibility: hidden;
+    /* margin-top: 30px; */
+    transition: 0.5s;
+    position: absolute;
+    top:70px;
+    left:0;
+}
+.drop3 li{
+    padding: 8px;
+    background-color: white;
+    /* border: 2px solid black; */
+}
+.drop3 li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.drop3 li a:hover{
+    color: #065e2e;
+}
+/* **************************togal******************************* */
+input[type=checkbox]{
+    display: none;
+}
+.hamburger{
+    display: none;
+    font-size: 25px;
+    user-select: none;
+    float: right;
+    background-color: red;
+}
+.i-800{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}

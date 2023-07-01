@@ -1,0 +1,12 @@
+@media screen and (max-width:480px) {
+    .main{
+        background-color: green;
+    }
+    
+}
+@media (min-width:481px) and (max-width:768px){
+    .main{
+        background-color: yellow;
+    }
+    
+}

@@ -1,0 +1,54 @@
+@media (min-width:100px) and (max-width:400px) {
+  body{
+    background-color: pink;
+  }
+  h1{
+    color: red;
+  }
+  .p1{
+    width: 300px;
+    color: red;
+  }
+  .p2{
+    color: red;
+    width: 300px;
+  }
+  h3{
+    color: red;
+  }
+  .img-1{
+    height: 300px;
+    width: 300px;
+  }  
+  .head-1{
+    width: 300px;
+  }
+}
+
+@media (min-width:400px) and (max-width:700px) {
+    body{
+      background-color: powderblue;
+    }
+    h1{
+      color: blueviolet;
+    }
+    .p1{
+      width: 500px;
+      color:blueviolet;
+    }
+    .p2{
+      color:blueviolet;
+      width: 500px;
+    }
+    h3{
+      color: blueviolet;
+    }
+    .img-1{
+      height: 250px;
+      width: 250px;
+    }  
+    .head-1{
+        width: 250px;
+    }
+  }
+
